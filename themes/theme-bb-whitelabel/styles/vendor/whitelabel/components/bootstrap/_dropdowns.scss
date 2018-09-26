@@ -1,0 +1,33 @@
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+.btn-dropdown-toggle {
+  @include hover-focus {
+    color: $dropdown-link-hover-color;
+    text-decoration: none;
+    @include gradient-bg($dropdown-link-hover-bg);
+  }
+}
+.dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+
+.dropdown-item {
+  color: $body-color;
+
+  a {
+    color: $dropdown-link-color;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+// full-width typeahead (to align with input component width)
+.full-width-typeahead {
+  .dropdown-menu {
+    width: 100%;
+  }
+}

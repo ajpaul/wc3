@@ -1,0 +1,29 @@
+// Chart
+$chart-tooltip-arrow-size: 10px;
+$chart-tooltip-arrow-position-near: 25%;
+$chart-tooltip-arrow-position-default: 50%;
+$chart-tooltip-arrow-position-far: 75%;
+$chart-tooltip-arrow-border-size: 2px;
+
+$chart-colors:
+  lighten($blue, 10%),
+  lighten($cyan, 10%),
+  lighten($green, 10%),
+  lighten($yellow, 10%),
+  lighten($orange, 10%),
+  lighten($red, 10%),
+  lighten($pink, 10%),
+  lighten($purple, 10%),
+  lighten($indigo, 10%),
+  lighten($teal, 10%),
+  darken($blue, 10%),
+  darken($cyan, 10%),
+  darken($green, 10%),
+  darken($yellow, 10%),
+  darken($orange, 10%),
+  darken($red, 10%),
+  darken($pink, 10%),
+  darken($purple, 10%),
+  darken($indigo, 10%),
+  darken($teal, 10%);
+

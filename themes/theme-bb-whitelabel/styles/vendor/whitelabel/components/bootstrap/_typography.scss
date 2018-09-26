@@ -1,0 +1,19 @@
+// Text
+//
+// line-height, and color for body text, headings, and more.
+.highlight {
+  font-weight: $font-weight-bold;
+}
+
+blockquote {
+  @extend .blockquote;
+}
+
+.break-word {
+  word-break: break-all; // IE does not support break-word :(
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}

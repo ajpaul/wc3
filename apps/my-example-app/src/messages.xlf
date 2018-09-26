@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="errorCommonState.error.user" datatype="html">
+        <source>
+        There is a problem with the action you are trying to perform.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/ui-ang/backbase-ui-ang.d.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">User action error message</note>
+      </trans-unit>
+      <trans-unit id="errorCommonState.error.connectivity" datatype="html">
+        <source>
+        Are you connected to the internet? Please check your connection and try again.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/ui-ang/backbase-ui-ang.d.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">Internet connection error message</note>
+      </trans-unit>
+      <trans-unit id="errorCommonState.error.unexpected" datatype="html">
+        <source>
+        Something`s gone wrong with our server. Please try again later.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/ui-ang/backbase-ui-ang.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">Unexpected error message</note>
+      </trans-unit>
+      <trans-unit id="bb-confirm-ui.no" datatype="html">
+        <source>
+          No
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/ui-ang/backbase-ui-ang.d.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">Do not agree with the message presented in the dialog</note>
+        <note priority="1" from="meaning">Do not confirm</note>
+      </trans-unit>
+      <trans-unit id="bb-confirm-ui.yes" datatype="html">
+        <source>
+          Yes
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/ui-ang/backbase-ui-ang.d.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">Agree with the message presented in the dialog</note>
+        <note priority="1" from="meaning">Confirm</note>
+      </trans-unit>
+      <trans-unit id="product-summary-header.label.total-balance" datatype="html">
+        <source>
+        Total Balance
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/product-summary-list-widget-ang/backbase-product-summary-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">Label for a product summary widget header component</note>
+        <note priority="1" from="meaning">Total Balance label</note>
+      </trans-unit>
+      <trans-unit id="login.form.username" datatype="html">
+        <source>Username</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Login form. Username label text</note>
+        <note priority="1" from="meaning">Username label</note>
+      </trans-unit>
+      <trans-unit id="login.form.password" datatype="html">
+        <source>Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">Login form. Password label text</note>
+        <note priority="1" from="meaning">Password label</note>
+      </trans-unit>
+      <trans-unit id="login.form.error" datatype="html">
+        <source>Credentials you have entered are invalid</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">Login form. Authentication error message</note>
+        <note priority="1" from="meaning">Login error</note>
+      </trans-unit>
+      <trans-unit id="login.form.submitButton" datatype="html">
+        <source>
+        Log in
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/login-widget-ang/backbase-login-widget-ang.d.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">Login form. Login button text</note>
+        <note priority="1" from="meaning">Login button</note>
+      </trans-unit>
+      <trans-unit id="transactions.state.noProductSelected.title" datatype="html">
+        <source>No product selected</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.state.noProductSelected.subtitle" datatype="html">
+        <source>Please select a product first</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.options" datatype="html">
+        <source>
+          <x id="ICU" equiv-text="{item, select, CRDT {...} DBIT {...} BILLED {...} UNBILLED {...} PENDING {...}}"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab52575ca741ae6cee6f9ba38c36cbe97b20d600" datatype="html">
+        <source>{VAR_SELECT, select, CRDT {Credit} DBIT {Debit} BILLED {Billed} UNBILLED {Unbilled} PENDING {Pending} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.search.button" datatype="html">
+        <source>Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">Search button</note>
+      </trans-unit>
+      <trans-unit id="transactions.filter.button" datatype="html">
+        <source>Filter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">Filter toggle button</note>
+      </trans-unit>
+      <trans-unit id="transactions.print.button" datatype="html">
+        <source>Print</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">Print button</note>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.label.creditDebitIndicator" datatype="html">
+        <source>Credit/Debit Indicator</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.label.billingStatus" datatype="html">
+        <source>Billing Status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.label.amountRange" datatype="html">
+        <source>Amount Range</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.label.dateRange" datatype="html">
+        <source>Date Range</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.label.checkRange" datatype="html">
+        <source>Check Range</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.button.clearAll" datatype="html">
+        <source>
+            Clear All
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.button.close" datatype="html">
+        <source>
+            Close
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.filter.form.button.apply" datatype="html">
+        <source>
+            Apply
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.list.loadMore" datatype="html">
+        <source>Load more...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.list.loadedAll" datatype="html">
+        <source>All transactions have been loaded.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.state.noResultsFound.title" datatype="html">
+        <source>No results found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.state.noResultsFound.subtitle" datatype="html">
+        <source>We can&apos;t find what you are looking for.&lt;br&gt;Please try a different criteria.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.state.loadingTransactions" datatype="html">
+        <source>Loading transactions...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.list.billingStatus" datatype="html">
+        <source>
+            <x id="ICU" equiv-text="{transaction?.billingStatus, select, PENDING {...} UNBILLED {...}}"/>
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f631ce7b7501768064cc105c6e7860309141b5c1" datatype="html">
+        <source>{VAR_SELECT, select, PENDING {Pending} UNBILLED {Unbilled} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.accountNumber" datatype="html">
+        <source>Account Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.transactionType" datatype="html">
+        <source>Transaction Type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.counterPartyName" datatype="html">
+        <source>Counter Party Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.counterPartyAccountNumber" datatype="html">
+        <source>Counter Party Account Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.scheduledDate" datatype="html">
+        <source>Scheduled Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.transactionReference" datatype="html">
+        <source>Transaction Reference</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.instructedCurrency" datatype="html">
+        <source>Instructed Currency</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.currencyExchangeRate" datatype="html">
+        <source>Currency Exchange Rate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.instructedAmount" datatype="html">
+        <source>Instructed Amount</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.description" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.category" datatype="html">
+        <source>Category</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transactions.details.label.checkNumber" datatype="html">
+        <source>Check Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/transactions-list-widget-ang/backbase-transactions-list-widget-ang.d.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.debit.title" datatype="html">
+        <source>
+      Debit account
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Title of the form section with debit account selector</note>
+        <note priority="1" from="meaning">Debit section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.debit.account.placeholder" datatype="html">
+        <source>
+            Select an account
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">Text to show when no account is being selected</note>
+        <note priority="1" from="meaning">Account selector placeholder</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.credit.title" datatype="html">
+        <source>
+      Beneficiary details
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">Title of the form section with credit account details</note>
+        <note priority="1" from="meaning">Credit section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.creditor.name" datatype="html">
+        <source>
+        Beneficiary name
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <note priority="1" from="description">Label for credit account name input field</note>
+        <note priority="1" from="meaning">Credit account name label</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.placeholder.creditor.name" datatype="html">
+        <source>Enter beneficiary name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <note priority="1" from="description">Placeholder for credit account name input field</note>
+        <note priority="1" from="meaning">Credit account name placeholder</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.iban" datatype="html">
+        <source>
+        IBAN
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <note priority="1" from="description">Label for IBAN input field</note>
+        <note priority="1" from="meaning">IBAN label</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.placeholder.iban" datatype="html">
+        <source>NL00 BANK 1234 5678 90</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <note priority="1" from="description">Placeholder for IBAN input field</note>
+        <note priority="1" from="meaning">IBAN placeholder</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.error.required.iban" datatype="html">
+        <source>
+            IBAN is required.
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <note priority="1" from="description">Error required message for IBAN input field</note>
+        <note priority="1" from="meaning">IBAN required error text </note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.error.invalid.iban" datatype="html">
+        <source>
+            Invalid IBAN.
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <note priority="1" from="description">Error required message for IBAN input field</note>
+        <note priority="1" from="meaning">IBAN invalid error text </note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.payment.details.title" datatype="html">
+        <source>
+      Payment details
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <note priority="1" from="description">Title of the form section with payment details</note>
+        <note priority="1" from="meaning">Payment details section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.amount" datatype="html">
+        <source>
+        Transfer amount
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <note priority="1" from="description">Label for payment amount</note>
+        <note priority="1" from="meaning">Amount label</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.message" datatype="html">
+        <source>
+          Message
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <note priority="1" from="description">Label for payment message</note>
+        <note priority="1" from="meaning">Message label</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.message.optional" datatype="html">
+        <source>
+          (optional)
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+        <note priority="1" from="description">Text that describes payment message as optional input</note>
+        <note priority="1" from="meaning">Message label remark</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.placeholder.message" datatype="html">
+        <source>Enter message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+        <note priority="1" from="description">Placeholder for payment message area</note>
+        <note priority="1" from="meaning">Message area placeholder</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.urgent" datatype="html">
+        <source>
+          Urgent payment
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <note priority="1" from="description">Label for urgent payment checkbox</note>
+        <note priority="1" from="meaning">Urgent payment label</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.schedule.title" datatype="html">
+        <source>
+          Scheduling
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+        <note priority="1" from="description">Title of the form section with payment schedule fields</note>
+        <note priority="1" from="meaning">Schedule section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.form.button.continue" datatype="html">
+        <source>
+        Continue
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+        <note priority="1" from="description">Button text for navigating to screen after payment form is filled out</note>
+        <note priority="1" from="meaning">Continue to the next screen</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.from" datatype="html">
+        <source>
+            From
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">Label for group of data related to the debit account</note>
+        <note priority="1" from="meaning">From section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.to" datatype="html">
+        <source>
+            To
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <note priority="1" from="description">Label for group of data related to the credit account</note>
+        <note priority="1" from="meaning">To section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.amount" datatype="html">
+        <source>
+            Transfer details
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <note priority="1" from="description">Label for group of data related to the transfer amount and conversion rates</note>
+        <note priority="1" from="meaning">Amount section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.yes" datatype="html">
+        <source>
+                Yes
+              </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <note priority="1" from="description">Label confirming that urgent payment is requested</note>
+        <note priority="1" from="meaning">Afirmative</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.message" datatype="html">
+        <source>
+            Message
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <note priority="1" from="description">Label for section containing transfer message</note>
+        <note priority="1" from="meaning">Message section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.section.schedule" datatype="html">
+        <source>
+            Scheduling
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <note priority="1" from="description">Label for section containing payment schedule info</note>
+        <note priority="1" from="meaning">Schedule information section title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.review.button.new" datatype="html">
+        <source>
+          Cancel
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <note priority="1" from="description">Go back to previous screen with form cleared</note>
+        <note priority="1" from="meaning">Go back and clear form</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.review.button.edit" datatype="html">
+        <source>
+            Edit
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+        <note priority="1" from="description">Go back to previous screen</note>
+        <note priority="1" from="meaning">Go back to form</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.review.button.send" datatype="html">
+        <source>
+            Submit payment
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <note priority="1" from="description">Send payment that is being reviewed</note>
+        <note priority="1" from="meaning">Send payment</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.cancel.modal.title" datatype="html">
+        <source>
+          Cancel payment
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+        <note priority="1" from="description">Title of the confirmation modal for canceling a payment</note>
+        <note priority="1" from="meaning">Cancel payment modal title</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.cancel.modal.intro" datatype="html">
+        <source>
+            You are about to cancel the payment.
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+        <note priority="1" from="description">Message that explains what is user&apos;s intention</note>
+        <note priority="1" from="meaning">Cancelation intention</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.cancel.modal.action" datatype="html">
+        <source>
+            All data will be cleared.
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+        <note priority="1" from="description">Message that explains what will happen if users confirms his intention</note>
+        <note priority="1" from="meaning">Cancelation action</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.cancel.modal.question" datatype="html">
+        <source>
+            Do you wish to continue?
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+        <note priority="1" from="description">Asking user if he wants to continue and execute the action</note>
+        <note priority="1" from="meaning">Cancelation question</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.payment.status" datatype="html">
+        <source>
+          Your payment is accepted
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">Sentence that describes payment status</note>
+        <note priority="1" from="meaning">Payment status</note>
+      </trans-unit>
+      <trans-unit id="payord-initiate-sepa-payment.label.payment.error" datatype="html">
+        <source>
+          Your payment has failed
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">Sentence that describes payment error</note>
+        <note priority="1" from="meaning">Payment error</note>
+      </trans-unit>
+      <trans-unit id="payment.status.button.new" datatype="html">
+        <source>
+          New payment
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <note priority="1" from="description">Go back to first screen</note>
+        <note priority="1" from="meaning">Make a new payment</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-ui.label.execution" datatype="html">
+        <source>
+        Execution
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Label for an execution date in scheduling component</note>
+        <note priority="1" from="meaning">Schedule execution label</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-ui.label.frequency" datatype="html">
+        <source>
+        Frequency
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">Label for a frequency dropdown in the component</note>
+        <note priority="1" from="meaning">Schedule frequency label</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-ui.frequency.list" datatype="html">
+        <source>
+             <x id="ICU" equiv-text="{hostRef.item?.frequency.value, select, other {...} DAILY {...} WEEKLY {...} MONTHLY {...} QUARTERLY {...} YEARLY {...}}"/>
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">List of available schedule frequencies</note>
+        <note priority="1" from="meaning">Schedule frequency list</note>
+      </trans-unit>
+      <trans-unit id="dd140d447475f061cfab1326008044e9bcc065cd" datatype="html">
+        <source>{VAR_SELECT, select, other {once} DAILY {daily} WEEKLY {weekly} MONTHLY {monthly} QUARTERLY {quarterly} YEARLY {annually} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="81e03aad515160bf9209ee763101d16075847b33" datatype="html">
+        <source>{VAR_SELECT, select, other {once} DAILY {daily} WEEKLY {weekly} MONTHLY {monthly} QUARTERLY {quarterly} YEARLY {annually} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb-schedule-ui.label.ending" datatype="html">
+        <source>
+        Ending
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <note priority="1" from="description">Label for the section containing inputs that determine way of ending of the scheduled payments</note>
+        <note priority="1" from="meaning">Schedule ending section name</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-ui.label.ending.never" datatype="html">
+        <source>
+              Never
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <note priority="1" from="description">Label for an option to never end the payment schedule</note>
+        <note priority="1" from="meaning">Schedule never ends</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-ui.label.ending.on" datatype="html">
+        <source>
+              On
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <note priority="1" from="description">Label for an option to end the payment schedule on a specific date</note>
+        <note priority="1" from="meaning">Schedule end date</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-ui.label.ending.after" datatype="html">
+        <source>
+              After
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <note priority="1" from="description">Label for an option to end the payment schedule after some number of occurrences</note>
+        <note priority="1" from="meaning">Schedule number of occurrences</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-ui.label.ending.occurrences" datatype="html">
+        <source>
+            occurrences
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <note priority="1" from="description">Text to be appended after schedule end after some number of occurrences input</note>
+        <note priority="1" from="meaning">Schedule occurrences text</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-label-ui.frequency.list" datatype="html">
+        <source>
+      <x id="ICU" equiv-text="{item?.frequency, select, other {...} DAILY {...} WEEKLY {...} MONTHLY {...} QUARTERLY {...} YEARLY {...}}"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">List of titles for available schedule frequencies</note>
+        <note priority="1" from="meaning">Schedule frequency title list</note>
+      </trans-unit>
+      <trans-unit id="4464ac6198ab9c2c5bc63414390af6abcab9e4e9" datatype="html">
+        <source>{VAR_SELECT, select, other {Once} DAILY {Daily} WEEKLY {Weekly} MONTHLY {Monthly} QUARTERLY {Quarterly} YEARLY {Annually} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb-schedule-label-ui.label.today.title" datatype="html">
+        <source>
+        Today
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Capitalized word for today</note>
+        <note priority="1" from="meaning">Today</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-label-ui.label.on" datatype="html">
+        <source>
+        on
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">Word to be used before a date to indicate that the payment will be executed on that date</note>
+        <note priority="1" from="meaning">On</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-label-ui.label.start" datatype="html">
+        <source>
+        starting
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">Word to be used before a date to indicate that this date is a starting date of the schedule</note>
+        <note priority="1" from="meaning">Schedule start</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-label-ui.label.today" datatype="html">
+        <source>
+          today</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">Lowercase name for current day</note>
+        <note priority="1" from="meaning">today</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-label-ui.label.end" datatype="html">
+        <source>
+        until
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">Word to be used before a date to indicate that this date is an end date of the schedule</note>
+        <note priority="1" from="meaning">Schedule end</note>
+      </trans-unit>
+      <trans-unit id="bb-schedule-label-ui.label.repeat" datatype="html">
+        <source>
+        times
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/payord-initiate-sepa-payment-widget-ang/backbase-payord-initiate-sepa-payment-widget-ang.d.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <note priority="1" from="description">Word to be used after number of occurences</note>
+        <note priority="1" from="meaning">Number of times</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.notification.success" datatype="html">
+        <source>
+          Successfully saved Contact
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">Notification reorder failed error message</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.notification.error" datatype="html">
+        <source>
+          Error saving Contact
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">Notification reorder failed error message</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.header.discardChanges" datatype="html">
+        <source>Discard Changes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">Header for discarding a contact change</note>
+        <note priority="1" from="meaning">Discard Contact Modal Header </note>
+      </trans-unit>
+      <trans-unit id="contact-manager.discardChangesConfirmation" datatype="html">
+        <source>
+          Are you sure you want to discard your changes? This action cannot be undone.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <note priority="1" from="description">Text for discarding confirmation of a contact edit</note>
+        <note priority="1" from="meaning">Confirm Discard Contact Text</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.button.cancel" datatype="html">
+        <source>Cancel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <note priority="1" from="description">Button for cancelling the process of discarding the changes</note>
+        <note priority="1" from="meaning">Cancel Contact Modal Button</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.button.discard" datatype="html">
+        <source>Discard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">Button for discarding edit of an existing contact in the modal</note>
+        <note priority="1" from="meaning">Discard Contact Edit Button</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.header.create" datatype="html">
+        <source>
+            Create New Contact
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">contacts form component create new contact header</note>
+        <note priority="1" from="meaning">Contacts create header</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.header.edit" datatype="html">
+        <source>
+            Edit Contact
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">contacts form component edit existing contact header</note>
+        <note priority="1" from="meaning">Contacts edit header</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.button.save" datatype="html">
+        <source>
+              Save
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">Save button text for saving a contacts item</note>
+        <note priority="1" from="meaning">Save current form</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.label.name" datatype="html">
+        <source>
+              Name
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <note priority="1" from="description">Label for contacts detail component name</note>
+        <note priority="1" from="meaning">Contacts name label </note>
+      </trans-unit>
+      <trans-unit id="contact-manager.label.nameRequired" datatype="html">
+        <source>
+              Name is required.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">Text for contacts detail component name required error</note>
+        <note priority="1" from="meaning">Contacts name required error text </note>
+      </trans-unit>
+      <trans-unit id="contact-manager.label.nameLengthError" datatype="html">
+        <source>
+              Name must be at least 4 characters long.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <note priority="1" from="description">Text for contacts detail component name minimum length validation error</note>
+        <note priority="1" from="meaning">Contacts name minimum length validation error text </note>
+      </trans-unit>
+      <trans-unit id="contact-manager.label.iban" datatype="html">
+        <source>
+            IBAN
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <note priority="1" from="description">Label for contacts detail component iban</note>
+        <note priority="1" from="meaning">Contacts iban label </note>
+      </trans-unit>
+      <trans-unit id="contact-manager.label.ibanRequired" datatype="html">
+        <source>
+              IBAN is required.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <note priority="1" from="description">Text for contacts detail component iban required error</note>
+        <note priority="1" from="meaning">Contacts iban required error text </note>
+      </trans-unit>
+      <trans-unit id="contact-manager.label.ibanInvalid" datatype="html">
+        <source>
+              Invalid IBAN.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <note priority="1" from="description">Text for contacts detail component iban invalid error</note>
+        <note priority="1" from="meaning">Contacts iban invalid error text </note>
+      </trans-unit>
+      <trans-unit id="contact-manager.state.noResultsFound.title" datatype="html">
+        <source>No results found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-manager.state.noResultsFound.subtitle" datatype="html">
+        <source>We can&apos;t find what you are looking for.&lt;br&gt;Please try a different criteria.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-manager.span.backToList" datatype="html">
+        <source>
+            Back to list
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">Span for going back to list view</note>
+        <note priority="1" from="meaning">Back to list view</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.placeholder.search" datatype="html">
+        <source>Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <note priority="1" from="description">Placeholder for search box</note>
+        <note priority="1" from="meaning">Search box placeholder</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.button.newContact" datatype="html">
+        <source>
+        New Contact
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <note priority="1" from="description">Button for creating a new contact</note>
+        <note priority="1" from="meaning">New Contact Button</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.button.edit" datatype="html">
+        <source>
+              Edit
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Button for editing an existing contact</note>
+        <note priority="1" from="meaning">Edit Contact Button</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.button.delete" datatype="html">
+        <source>
+              Delete
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <note priority="1" from="description">Button for deleting an existing contact</note>
+        <note priority="1" from="meaning">Delete Contact Button</note>
+      </trans-unit>
+      <trans-unit id="contact-manager.header.deleteContact" datatype="html">
+        <source>Delete Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <note priority="1" from="description">Header for deleting an existing contact</note>
+        <note priority="1" from="meaning">Delete Contact Modal Header </note>
+      </trans-unit>
+      <trans-unit id="contact-manager.deleteConfirmation" datatype="html">
+        <source>
+        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Are you sure you want to delete <x id="INTERPOLATION" equiv-text="{{ item.name }}"/> from your contacts? This action cannot be undone.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">../../../node_modules/@backbase/contact-manager-widget-ang/backbase-contact-manager-widget-ang.d.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <note priority="1" from="description">Text for delete confirmation of an existing contact</note>
+        <note priority="1" from="meaning">Confirm Delete Contact Text</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

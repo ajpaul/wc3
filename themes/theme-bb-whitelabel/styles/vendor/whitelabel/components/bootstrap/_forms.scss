@@ -1,0 +1,20 @@
+@include form-validation-state-nested-override("valid", $form-feedback-valid-color);
+@include form-validation-state-nested-override("invalid", $form-feedback-invalid-color);
+
+// Basic form components
+button,
+.btn,
+[type=button],
+[role=button] {
+  cursor: pointer;
+}
+
+input[type="search"] {
+  box-sizing: border-box;
+}
+
+button[disabled],
+html input[disabled],
+.disabled {
+  cursor: not-allowed;
+}

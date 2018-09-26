@@ -1,0 +1,7 @@
+//
+// Components
+//
+// Define ui-component-specific variables
+//This is where the backbase theme overrides or extends existing Bootstrap 4 variables
+$component-active-color: $primary;
+$component-active-bg: rgba($primary, 0.1);

@@ -1,0 +1,87 @@
+//MAIN ENTRY POINT: All 'Look and Feel' of the theme starts here
+
+//How-To: Adding Custom Overrides
+//If you are overriding existing helper variables & mixins/functions, they must be imported AFTER the 'vendor/...' 3rd Party equivalents (e.g. bootstrap)
+//This entry file uses a last-in-first-out load order,
+//Where the final overrides take precedence over previous
+
+//**********************************
+// [STAGE 1]: Base Helper Definitions
+// Reserved for: Root base definitions of variables, which are first-initialized prior to further abstractions or references // (e.g. $abstracted_var: $root_var)
+// Additional Note: 'Base' files define the global variables with primal values rather than references to other values
+// Correct Usage: $my-base-var: rgba(255,252,130);
+// Incorrect Usage: $my-second-var: $my-base-var;
+//**********************************
+
+//==================================
+// Bootstrap Base Helper Definitions -- global override-able helpers that can be overidden below
+//NOTE: variable definitions depend on functions to compute
+//==================================
+@import "vendor/bootstrap/functions";
+@import "vendor/bootstrap/variables";
+@import "vendor/bootstrap/mixins";
+
+//==================================
+// Whitelabel Base Definitions
+//==================================
+@import 'vendor/whitelabel/base/base';
+
+//FONT & ICON STYLES
+//Customizable: This is where to define your theme fonts and icons
+@import 'fonts/fonts';
+
+//==================================
+// [STAGE 1 OVERRIDES]: Your Custom Base Definitions (INSERT HERE)
+// (See 'base/base')
+// Correct Usage: $my-base-var: rgba(255,252,130);
+// Incorrect Usage: $my-second-var: $my-base-var;
+//==================================
+@import 'base/base';
+
+//**********************************
+// [STAGE 2]: Abstractions from Base Variables
+// (e.g. $abstract-variable: $another-base-variable)
+//**********************************
+
+//==================================
+// Whitelabel Abstraction Layer -- from global base variables
+//==================================
+@import 'vendor/whitelabel/helpers/helpers';
+
+//==================================
+// [STAGE 2 OVERRIDES]: Your Custom Helper Definitions (INSERT HERE)
+// (See 'helpers/helpers')
+//==================================
+@import 'helpers/helpers';
+
+//**********************************
+// [STAGE 3]: Load & Compute to CSS styles -- Code that outputs CSS
+//**********************************
+
+//==================================
+// Bootstrap 4 Loader
+// (Only Cherrypick imports if certain what's not being used)
+// To cherrypick, just selectively import the needed Sass partials
+//==================================
+@import "vendor/bootstrap/bootstrap";
+
+//==================================
+// Whitelabel Loader
+//==================================
+@import "vendor/whitelabel/backbase";
+
+//==================================
+// [STAGE 3 OVERRIDES]: Custom Styles Loader (INSERT HERE)
+// Your project's CSS Output Instructions
+//==================================
+@import 'components/components';
+@import 'templates/templates';
+
+//=== NON-OVERRIDE VENDOR AREA (INSERT HERE) ===
+//Load icons, based on cascaded top-layer variables & helpers
+@import 'vendor/font-awesome/scss/fontawesome';
+@import 'vendor/font-awesome/scss/fa-brands';
+@import 'vendor/font-awesome/scss/fa-regular';
+@import 'vendor/font-awesome/scss/fa-solid';
+@import 'vendor/angular-ui-tree/angular-ui-tree';
+@import 'vendor/ng2-dragula/ng2-dragula';

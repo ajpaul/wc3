@@ -1,0 +1,17 @@
+.ext-bb-user-context-menu-ng {
+  .rb-sidebar & {
+    display: none;
+  }
+
+  .context-label {
+    width : 150px;
+  }
+
+  .context-avatar {
+    display: none;
+  }
+
+  .context-username {
+    display: none;
+  }
+}

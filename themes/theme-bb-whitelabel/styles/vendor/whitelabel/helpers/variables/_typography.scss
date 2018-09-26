@@ -1,0 +1,8 @@
+// Text
+//
+// line-height, and color for body text, headings, and more.
+$text-muted: $gray-500; 
+
+$font-icon-size: ($font-size-base * 1.5) !default;
+
+$line-height-computed: floor($font-size-base * $line-height-base);

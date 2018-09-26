@@ -1,0 +1,23 @@
+// Navigation
+
+$navbar-box-shadow: 0 0 1px 0 rgba(0,0,0,0.14),
+    0 1px 1px 0 rgba(0,0,0,0.12),
+    0 1px 1px 0 rgba(0,0,0,0.01);
+$navbar-height: 80px;
+$navbar-brand-width: 200px;
+$navbar-side-width: 200px;
+$navbar-right-width: 350px;
+$navbar-top-height: $navbar-height;
+
+$nav-tabs-link-hover-border-color:  transparent;
+
+$navigation-main-content-padding-top: 30px;
+$navigation-main-content-padding-left: 15px;
+$navigation-main-content-padding-right: 15px;
+$navigation-header-height: 25px;
+$navigation-header-horizontal-padding: $navigation-main-content-padding-left;
+$navigation-header-vertical-padding: 0;
+$navigation-header-color: $nav-link-disabled-color;
+$nav-link-disabled-color: $text-muted;
+$nav-link-color: $white;
+$nav-link-hover-color: rgba($white, 0.5);

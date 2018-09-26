@@ -1,0 +1,32 @@
+//ENTRY POINT: Component-based Styling Layer for Backbase Components styling (ui-bb-***)
+// Reserved for Singularly 'black-boxed' UI 
+
+//SECTION: WC2 UIs
+@import 'ui-bb-chartjs-chart-ng';
+@import 'ui-bb-chartjs-chart-bar-ng';
+@import 'ui-bb-chartjs-chart-donut-ng';
+@import 'ui-bb-chartjs-chart-line-ng';
+@import 'ui-bb-checkbox-indeterminate-ng';
+@import 'ui-bb-currency-input-ng';
+@import 'ui-bb-loading-overlay-ng';
+@import 'ui-bb-switcher-ng';
+
+//SECTION: Capability UIs
+//TODO: In future, capability-origin components should be on template side 
+@import 'ui-bb-checkbox-indeterminate-ng';
+@import 'ui-bb-rich-text-editor-ng';
+
+//SECTION: reusable agnostic patterns
+//Reserved for generically functional backbase elements
+@import 'avatars';
+@import 'logos';
+@import 'icons';
+@import 'search-box';
+@import 'format-amounts';
+@import 'notifications';
+@import 'chart-tooltip';
+@import 'list-group-items';
+@import 'progress-indicators';
+
+//SECTION: General styling modifications of bootstrap
+@import 'bootstrap/bootstrap-components';

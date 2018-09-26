@@ -1,0 +1,54 @@
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap's navbar overrides
+ * --------------------------------------------------------------------------
+ * @name navbar
+ * @description Navigation overrides. For navbar we have defined brand logo size, also colors and spacing.
+ */
+
+.navbar-brand {
+  @extend .ml-4;
+  max-width: $navbar-brand-width;
+
+  & img {
+    max-width: 0.9 * $navbar-brand-width;
+  }
+}
+
+.navbar {
+  border: none;
+  padding-bottom: 0;
+
+  .nav > li {
+    border-left: 4px solid transparent;
+
+    &.active {
+      background-color: rgba($primary, 0.2);
+      border-left-color: $primary;
+    }
+
+    & > a {
+      color: $nav-link-color;
+
+      &:hover {
+        background-color: inherit;
+        color: $nav-link-hover-color;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .navbar-right {
+      margin-right: 0;
+      width: $navbar-right-width;
+    }
+  }
+}
+
+.navbar-default {
+  background-color: transparent;
+}
+
+.nav .row {
+  margin: 0;
+}

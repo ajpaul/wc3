@@ -1,0 +1,121 @@
+.bicon {
+  @extend .fas;
+}
+
+.bicon-error {
+  @extend .fa-exclamation-triangle;
+}
+
+.bicon-warning {
+  @extend .fa-exclamation-circle;
+}
+
+.bicon-alert {
+  @extend .fa-exclamation-circle;
+}
+
+.bicon-info {
+  @extend .fa-info-circle;
+}
+
+.bicon-success {
+  @extend .fa-check-circle;
+}
+
+.bicon-user {
+  @extend .fa-user;
+}
+
+.bicon-contacts {
+  @extend .fa-address-book;
+}
+
+.bicon-authorized {
+  @extend .fa-sign-in-alt;
+}
+
+.bicon-unexpected {
+  @extend .fa-server;
+}
+
+.bicon-toggle-down {
+  @extend .fa-chevron-down;
+}
+
+.bicon-toggle-up {
+  @extend .fa-chevron-up;
+}
+
+.bicon-caret-down {
+  @extend .fa-caret-down;
+}
+
+.bicon-caret-up {
+  @extend .fa-caret-up;
+}
+
+.bicon-drag-n-drop {
+  @extend .fa-bars;
+}
+
+.bicon-circle {
+  @extend .fa-circle;
+}
+
+.bicon-exchange {
+  @extend .fa-exchange-alt;
+}
+
+.bicon-filter {
+  @extend .fa-filter;
+}
+
+.bicon-search {
+  @extend .fa-search;
+}
+
+.bicon-times {
+  @extend .fa-times;
+}
+
+.bicon-angle-left {
+  @extend .fa-angle-left;
+}
+
+.bicon-angle-right {
+  @extend .fa-angle-right;
+}
+
+.bicon-ellipsis-h {
+  @extend .fa-ellipsis-h;
+}
+
+.bicon-calendar {
+  @extend .fa-calendar;
+}
+
+.bicon-list {
+  @extend .fa-list;
+}
+
+.bicon-loading {
+  @extend .fa-spinner;
+  @extend .fa-spin;
+  @extend .fa-2x;
+}
+
+.bicon-notifications {
+  @extend .fa-bell;
+}
+
+.bicon-delete {
+  @extend .fa-trash-alt;
+}
+
+.bicon-check {
+  @extend .fa-check;
+}
+
+.bicon-more-vertical {
+  @extend .fa-ellipsis-v;
+}

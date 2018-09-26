@@ -1,0 +1,22 @@
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+$dropdown-bg: $white;
+$dropdown-border-color: $border-color;
+$dropdown-divider-bg: $border-color;
+
+$dropdown-link-color: $component-active-color;
+$dropdown-link-hover-color: darken($component-active-color, 10%);
+$dropdown-link-hover-bg: $component-active-bg;
+
+$dropdown-link-active-color: $component-active-color;
+$dropdown-link-active-bg: $component-active-bg;
+
+$dropdown-link-disabled-color: $text-muted;
+
+$dropdown-header-color: $text-muted;
+
+//For uib-* bs3-to-bs4 shim
+$dropdown-chevron-width: $font-size-base;
+$dropdown-chevron-height: $line-height-computed;

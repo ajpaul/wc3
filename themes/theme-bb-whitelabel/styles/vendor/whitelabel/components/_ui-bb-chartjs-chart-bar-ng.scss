@@ -1,0 +1,69 @@
+/**
+ * --------------------------------------------------------------------------
+ * UI BB Chart.js bar chart component
+ * --------------------------------------------------------------------------
+ * @name ui-bb-chartjs-chart-bar-ng
+ * @description
+ * Chart.js bar chart UI component
+ *
+ * Some styles are read inside code that generates canvas and
+ * because of that, examples cannot be provided for all styles.
+ *
+ * Dataset colors are defined with a class that has prefix chart-bar-dataset-
+ * followed by the index of the dataset (starting with 0). For example:
+ * .chart-bar-dataset-0 .chart-bar-dataset-1 etc.
+ *
+ * Axis font and color are defined inside .chart-bar-axis-x and .chart-bar-axis-y
+ *
+ * @example
+ * <div class="chart-bar-legend">
+ *   <ul class="0-legend">
+ *     <li>
+ *       <span style="background-color:rgb(185, 228, 255)"></span>Set 1
+ *     </li>
+ *     <li>
+ *       <span style="background-color:rgb(58, 179, 255)"></span>Set 2
+ *     </li>
+ *   </ul>
+ * </div>
+ */
+
+.chart-bar-dataset {
+  &-0 {
+    color: theme-color("primary");;
+  }
+  &-1 {
+    color: theme-color("info");
+  }
+  &-forecast {
+    &-0 {
+      color: rgba(theme-color("primary"), 0.5)
+    }
+    &-1 {
+      color: rgba(theme-color("info"), 0.5)
+    }
+  }
+}
+
+.badge {
+  &-now {
+    background-color: theme-color("info");
+    color: $white;
+  }
+
+  &-future {
+    background-color: rgba(theme-color("info"), 0.5);
+    color: $white;
+  }
+}
+
+.chart-bar-axis {
+  font-family: $font-family-base;
+  &-x {
+    color: $gray-600;
+  }
+  &-y {
+    color: $gray-800;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    @include button-variant($value, darken($value, 8%), darken($value, 10%));
+  }
+}

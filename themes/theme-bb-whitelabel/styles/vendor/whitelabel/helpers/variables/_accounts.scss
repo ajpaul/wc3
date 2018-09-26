@@ -1,0 +1,20 @@
+// Define colors used by account type
+$account-colors: (
+  "current-account":    lighten($blue, 30%),
+  "savings-account":    lighten($blue, 30%),
+  "term-deposit":       lighten($blue, 30%),
+  "credit-card":        lighten($blue, 30%),
+  "debit-card":         lighten($blue, 30%),
+  "loan":               lighten($blue, 30%),
+  "investment-account": lighten($blue, 30%)
+);
+
+$account-bg-colors: (
+  "current-account":    lighten($blue, 50%),
+  "savings-account":    lighten($blue, 50%),
+  "term-deposit":       lighten($blue, 50%),
+  "credit-card":        lighten($blue, 50%),
+  "debit-card":         lighten($blue, 50%),
+  "loan":               lighten($blue, 50%),
+  "investment-account": lighten($blue, 50%)
+);

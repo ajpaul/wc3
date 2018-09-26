@@ -1,0 +1,11 @@
+////
+/// Typography
+/// OVerall styling of the main typography across the theme
+/// @group typography
+/// @author Mark de Jong
+////
+
+$fonts-path: "../assets/fonts/" !default;
+$fa-font-path: "vendor/font-awesome/webfonts/";
+
+$font-family-sans-serif: $font-name, "Helvetica Neue", Arial, sans-serif !default;

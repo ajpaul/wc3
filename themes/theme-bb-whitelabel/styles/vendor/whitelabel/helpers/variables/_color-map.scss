@@ -1,0 +1,39 @@
+//
+// Plain Color Variables
+// -- Abstracted color variables from base/colors (2nd degree)
+
+$primary: $blue;
+$secondary: $gray-200;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$dark: $gray-900;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
+);
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval: 10%;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark: $gray-900;
+
+// Alert
+//
+// Color levels adjustemt to make alerts visible with whitelabel color system
+$alert-bg-level: -9;
+$alert-border-level: -8;
+
+// Status Colors
+$success-bright: mix($white, $green, 90%);
+$danger-bright: mix($white, $danger, 90%);
+$info-bright: mix($white, $cyan, 90%);

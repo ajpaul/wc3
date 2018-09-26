@@ -1,0 +1,20 @@
+// Classes for chart line need to be in a single line to be picked up in JS
+@each $color, $value in $account-colors {
+  .chart-line-card-positive-color-#{$color} {
+    color: $value;
+  }
+
+  .chart-line-card-positive-color-#{$color}-favorite {
+    color: $value;
+  }
+}
+
+@each $color, $value in $account-bg-colors {
+  .chart-line-card-positive-background-#{$color} {
+    background-color: $value;
+  }
+
+  .chart-line-card-positive-background-#{$color}-favorite {
+    background-color: $value;
+  }
+}

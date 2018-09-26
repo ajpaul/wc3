@@ -2,12 +2,199 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "",
-  "projects": {},
+  "projects": {
+    "my-example-app": {
+      "root": "apps/my-example-app/",
+      "sourceRoot": "apps/my-example-app/src",
+      "projectType": "application",
+      "prefix": "bb",
+      "schematics": {
+        "@schematics/angular:component": {
+          "inlineTemplate": true,
+          "inlineStyle": true,
+          "spec": false
+        },
+        "@schematics/angular:class": {
+          "spec": false
+        },
+        "@schematics/angular:directive": {
+          "spec": false
+        },
+        "@schematics/angular:guard": {
+          "spec": false
+        },
+        "@schematics/angular:module": {
+          "spec": false
+        },
+        "@schematics/angular:pipe": {
+          "spec": false
+        },
+        "@schematics/angular:service": {
+          "spec": false
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/my-example-app",
+            "index": "apps/my-example-app/src/index.html",
+            "main": "apps/my-example-app/src/main.ts",
+            "polyfills": "apps/my-example-app/src/polyfills.ts",
+            "tsConfig": "apps/my-example-app/src/tsconfig.app.json",
+            "assets": [
+              "apps/my-example-app/src/favicon.ico",
+              "apps/my-example-app/src/assets"
+            ],
+            "styles": [
+              "apps/my-example-app/src/styles.css",
+              "themes/theme-bb-whitelabel/styles/main.scss"
+            ],
+            "scripts": [
+              "apps/my-example-app/src/dev-mock.js"
+            ]
+          },
+          "configurations": {
+            "es-AR": {
+              "aot": true,
+              "i18nLocale": "es-AR",
+              "i18nFile": "apps/training-app/src/locale/messages.es-AR.xlf"
+            },
+            "en-US": {
+              "aot": true,
+              "i18nLocale": "en-US",
+              "i18nFile": "apps/training-app/src/locale/messages.en-US.xlf"
+            },
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/my-example-app/src/environments/environment.ts",
+                  "with": "apps/my-example-app/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "my-example-app:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "my-example-app:build:production"
+            },
+            "es-AR": {
+              "browserTarget": "training-app:build:es-AR"
+            },
+            "en-US": {
+              "browserTarget": "training-app:build:en-US"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "my-example-app:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "apps/my-example-app/src/test.ts",
+            "polyfills": "apps/my-example-app/src/polyfills.ts",
+            "tsConfig": "apps/my-example-app/src/tsconfig.spec.json",
+            "karmaConfig": "apps/my-example-app/src/karma.conf.js",
+            "styles": [
+              "apps/my-example-app/src/styles.css"
+            ],
+            "scripts": [],
+            "assets": [
+              "apps/my-example-app/src/favicon.ico",
+              "apps/my-example-app/src/assets"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/my-example-app/src/tsconfig.app.json",
+              "apps/my-example-app/src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "my-example-app-e2e": {
+      "root": "apps/my-example-app-e2e",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "apps/my-example-app-e2e/protractor.conf.js",
+            "devServerTarget": "my-example-app:serve"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "apps/my-example-app-e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "todo-widget": {
+      "root": "libs/todo-widget",
+      "sourceRoot": "libs/todo-widget/src",
+      "projectType": "library",
+      "prefix": "bb",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/todo-widget/test.ts",
+            "tsConfig": "libs/todo-widget/tsconfig.spec.json",
+            "karmaConfig": "libs/todo-widget/karma.conf.js",
+            "polyfills": "libs/todo-widget/polyfills.ts"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "files": [
+              "libs/todo-widget/**/*.ts"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
   "cli": {
     "warnings": {
       "typescriptMismatch": false,
       "versionMismatch": false
     },
     "defaultCollection": "@bb-cli/schematics"
-  }
+  },
+  "defaultProject": "my-example-app"
 }

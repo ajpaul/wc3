@@ -1,0 +1,8 @@
+body {
+  background-color: $white;
+}
+
+// Minimum width supported by widgets
+.bp-widget-body {
+  min-width: 320px;
+}
